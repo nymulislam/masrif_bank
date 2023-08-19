@@ -7,6 +7,5 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     inputMail.value = '';
     inputPass.value = '';
 
-    mailValue === 'masrif@islami.com' && passValue === 'masrif@islam' ? window.open('http://127.0.0.1:5500/dashboard.html') : alert(`invalid user.`);
-
+    mailValue === 'masrif@islami.com' && passValue === 'masrif@islam'? window.open("dashboard.html") : alert(`Invalid User/Password`);
 })
